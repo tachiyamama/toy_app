@@ -8,3 +8,13 @@
 
   <%= button_to "Destroy this user", @user, method: :delete %>
 </div>
+
+<h2>Microposts first</h2>
+<div>
+<%= render partial: 'microposts/micropost', locals: {micropost: @micropost} %>
+</div>
+
+<h2>Microposts リスト</h2>
+<div>
+<%= render partial: 'microposts/micropost', collection: @microposts %>
+</div>
