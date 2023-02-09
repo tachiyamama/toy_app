@@ -67,4 +67,7 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
+
+  #(クラウドIDEで)ローカルWEBサーバに接続するために下記一文。今回はいらない
+  #config.hosts.clear
 end
