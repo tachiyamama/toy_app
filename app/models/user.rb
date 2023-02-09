@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-    hash_many :microposts
+    has_many :microposts
 end
